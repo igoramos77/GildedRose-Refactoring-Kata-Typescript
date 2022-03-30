@@ -1,9 +1,15 @@
-export class Item {
+export interface IItemProps {
+  name: string;
+  sellIn: number;
+  quality: number;
+}
+
+export class Item implements IItemProps {
   name: string;
   sellIn: number;
   quality: number;
 
-  constructor(name, sellIn, quality) {
+  constructor(name: string, sellIn: number, quality: number) {
     this.name = name;
     this.sellIn = sellIn;
     this.quality = quality;
@@ -67,3 +73,12 @@ export class GildedRose {
     return this.items;
   }
 }
+
+
+// Client
+
+const gildedRose = new GildedRose([new Item('foo', 0, 0)]);
+const items = gildedRose.updateQuality();
+
+console.log(items[0].name);
+console.log(gildedRose.updateQuality())
