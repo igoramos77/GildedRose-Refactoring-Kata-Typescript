@@ -10,43 +10,43 @@ const addQuality = (quality: number) => isMax(quality) ? quality + 1 : quality;
 const removeQuality = (quality: number) => isMin(quality) ? quality - 1 :  quality; 
 
 export const updateQualityForAgedBrie = (item: Item) :Item =>  {
-    // Implement method
+  // Implement method
 
-    return item;
+  return item;
 }
 
 const increaseQualityForConcert = (item: Item): number => {
-    // Implement method
+  // Implement method
 
-    return 0; //quality
+  return 0; //quality
 }
 
 export const updateQualityForConcert = (item: Item) :Item => {
-    // Implement method
+  // Implement method
 
-    return item;
+  return item;
 }
 
 export const updateQualityForSulfuras = (item: Item) :Item => {
-    // Implement method
+  // Implement method
 
-    return item;
+  return item;
 }
 
 export const updateQualityForConjured = (item: Item) :Item => {
-    // Implement method
+  // Implement method
 
-    return item;
+  return item;
 }
 
 const updateQualityItem = (item: Item): Item => {
-    // Implement method
-    
-    return item;
+  // Implement method
+  
+  return item;
 }
 
 export const updateQualityForNormalItem = (item: Item) :Item => { 
-    // Implement method
+  // Implement method
 
-    return item;
+  return item;
 }
