@@ -77,8 +77,8 @@ export class GildedRose {
 
 // Client
 
-const gildedRose = new GildedRose([new Item('foo', 0, 0)]);
+const gildedRose = new GildedRose([new Item('Chesse', 0, 0)]);
 const items = gildedRose.updateQuality();
 
-console.log(items[0].name);
+console.log(items);
 console.log(gildedRose.updateQuality())
