@@ -1,9 +1,9 @@
-import { Item, GildedRose } from '@/gilded-rose';
+import { GildedRose } from '../../app/gilded-rose';
+import { Item } from '../../app/item';
 
 describe('Gilded Rose', () => {
-  it('should foo', () => {
-    const gildedRose = new GildedRose([new Item('foo', 0, 0)]);
-    const items = gildedRose.updateQuality();
-    expect(items[0].name).toBe('fixme');
+  it('Is it', () => {
+    const gildedRose = new GildedRose([new Item('Aged Brie', 0, 0)]);
+    expect(gildedRose.items[0].name).toBe('Aged Brie');
   });
 });
