@@ -54,4 +54,4 @@ const gildedRose = new GildedRose([
 const items = gildedRose.updateQuality();
 
 console.log(items);
-console.log(gildedRose.updateQuality())
+console.log(gildedRose.updateQuality());

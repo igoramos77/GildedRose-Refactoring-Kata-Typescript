@@ -3,16 +3,16 @@
     "module": "commonjs",
     "target": "es5",
     "strict": true,
-    "noImplicitAny": false,
-    "sourceMap": false,
     "baseUrl": "./",
     "paths": {
-      "@/*": [
-        "app/*"
+      "@app/*": [
+        "/*"
       ]
     }
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "coverage",
+    "test"
   ]
 }
